@@ -1,0 +1,13 @@
+Uuid: 60f172f27a9b49a1b538ed414f9f27c3
+ExtensionType: 1
+Name: CSRF Scanner
+RepoName: csrf-scanner
+ScreenVersion: 1.4a
+SerialVersion: 6
+MinPlatformVersion: 0
+ProOnly: True
+Author: Adrian Hayter
+ShortDescription: Passively scans for CSRF vulnerabilities.
+EntryPoint: build/libs/csrf-scanner-all.jar
+BuildCommand: gradle fatJar
+SupportedProducts: Pro
